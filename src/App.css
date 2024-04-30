@@ -46,7 +46,7 @@ hr {
   margin-bottom: 10px;
 }
 
-.content formatting {
+.content p {
   margin-bottom: 10px;
 }
 
@@ -62,8 +62,20 @@ hr {
 
 /* Added styles for intro section */
 .intro {
+  text-align: center;
   display: flex;
   align-items: center;
+}
+.portfolio-description {
+  font-size: 16px; /* Adjust the font size */
+  color: #333; /* Set the text color */
+  margin-top: 20px; /* Add some top margin */
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+.workPlace {
+  font-weight: bold;
 }
 
 .engineer-image {
@@ -95,4 +107,19 @@ hr {
   height: auto;
   margin-top: 20px;
   
+}
+
+.external-links {
+  margin-top: 20px;
+}
+
+.external-links a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(15, 120, 225);
+}
+
+.external-links a:hover {
+  text-decoration: underline;
 }
