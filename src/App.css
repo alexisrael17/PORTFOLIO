@@ -29,13 +29,13 @@ nav ul li a:hover {
 }
 
 hr {
-  margin: 20px 0;
+  margin: 15px 0;
   border: none;
-  border-top: 1px solid #ddd;
+  border-top: 5px solid rgb(56, 84, 198);
 }
 
 .content {
-  padding: 20px;
+  padding: 10px;
 }
 
 .content h2 {
@@ -98,7 +98,7 @@ hr {
 .intro-text {
   color: #333;
 }
-
+/*
 .intro-video {
   border: solid 1px;
   padding: 1em;
@@ -108,7 +108,7 @@ hr {
   margin-top: 20px;
   
 }
-
+*/
 .external-links {
   margin-top: 20px;
 }

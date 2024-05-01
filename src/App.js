@@ -7,7 +7,7 @@ import experienceImage from './experience.jpg';
 import schoolProjectsImage from './school-projects.jpg';
 import sportsImage from './sports.jpg';
 import storiesImage from './stories.jpg';
-import introVideo from './intro-video.mp4';
+
 
 const Home = () => (
   <div className="content">
@@ -17,7 +17,7 @@ const Home = () => (
       <h1>ALEX LEMA</h1>
       <h2>Welcome to My Portfolio</h2>
       
-        <p class="portfolio-description">Dynamic Computer Engineering graduate with a proven track record in software development and hardware design. Proficient in JavaScript, React, and C++, C, with hands-on experience in creating robust web and software applications. Adept at problem-solving and optimizing solutions for peak performance. Strong understanding of object-oriented programming and design principles, coupled with successful execution in all phases of software development, including design, coding, testing, debugging, implementation, and source management. Proven ability to collaborate effectively within diverse teams and lead projects to successful outcomes.</p>
+        <p class="portfolio-description">My educational background in Computer Engineering from the University of Minnesota has equipped me with a solid foundation in technology and a deep understanding of computer systems, software development, and hardware design. Proficient in JavaScript, React, CSS, C#, C and  C++, with hands-on experience in creating robust web and software applications. Adept at problem-solving and optimizing solutions for peak performance. Strong understanding of object-oriented programming and design principles, coupled with successful execution in all phases of software development, including design, coding, testing, debugging, implementation, and source management. Proven ability to collaborate effectively within diverse teams and lead projects to successful outcomes.</p>
 
       </div>
     </div>
@@ -186,10 +186,11 @@ const Education = () => (
     <h2>Schools: </h2>
 
 
-    <p>
+ 
+    <p class="workPlace">
 B.S. in Computer Engineering
 University of Minnesota - Twin Cities, Minneapolis, MN</p>
-<p>May 2022</p>
+<p>May 2017</p>
     <ul>
       <li>Relevant Coursework: Digital Design (Verilog), Microcontrollers (MPLAB), Advanced Algorithms and Data Structures, Database Systems (SQL Server),</li>
       <li>Computer Architecture (C), Artificial Intelligence (Python), Signals and Communications Systems (OrCAD-Pspice)</li>
@@ -197,7 +198,8 @@ University of Minnesota - Twin Cities, Minneapolis, MN</p>
       
     </ul>
 
-    <p>A.S. in Mathematics
+    <p class="workPlace">
+      A.S. in Mathematics
 Minneapolis Community and Technical College, Minneapolis, MN</p>
     <p>May 2017</p>
     <ul>
@@ -241,11 +243,31 @@ const Stories = () => (
 const Links = () => (
   <div className="content">
     <h2>Click on the following options: </h2>
+    
     <div className="external-links">
-    <a href="https://www.linkedin.com/in/alex-lema/" target="_blank">LinkedIn</a>
-    <a href="https://github.com/alexisrael17" target="_blank">GitHub</a>
-        {/* Add more external links as needed */}
-   </div>    
+    <p class="workPlace">
+      Work and Projects:</p>
+    <ul>
+      <li>
+      <a href="https://www.linkedin.com/in/alex-lema/" target="_blank">LinkedIn</a>
+      </li>
+      <li>
+       <a href="https://github.com/alexisrael17" target="_blank">GitHub</a>
+      </li>
+    
+      
+    </ul>
+    <p class="workPlace">
+      STEM SciTech Interview:</p>
+    <ul>
+    <li>  
+       <a href="https://scitechmn.org/connecting-with-interns-past-and-present-at-brion-finlay-engineering/" target="_blank">Connecting with Interns Past and Present at Brion Finlay Engineering</a>
+      </li>
+      
+    </ul>
+
+
+  </div>    
   </div>
 );
 
