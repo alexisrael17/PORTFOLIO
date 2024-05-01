@@ -7,7 +7,7 @@ import experienceImage from './experience.jpg';
 import schoolProjectsImage from './school-projects.jpg';
 import sportsImage from './sports.jpg';
 import storiesImage from './stories.jpg';
-
+//intro-video.mp4
 
 const Home = () => (
   <div className="content">
